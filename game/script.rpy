@@ -23,24 +23,15 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
     play music "hitslab-flower-garden-flower-music-281288.mp3"
-    scene fleur with irisin
+    scene fleur with fade
+    pause 1.5
     $ povname = renpy.input("Name the male lead:", length = 32)
     $ povname = povname.strip()
     if not povname:
         $ povname = "Daniel"
-    scene wake with fade
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
+    
+    scene wake with irisin
+    play music "wumeiwansui-miraculous-flower-161931.mp3" fadein 2.0
+    play sound "yawning-6096.mp3"
+  
     return

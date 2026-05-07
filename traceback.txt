@@ -6,7 +6,7 @@ NameError: name 'e' is not defined
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "game/script.rpy", line 40, in script
+  File "game/script.rpy", line 41, in script
     e "You've created a new Ren'Py game."
 Exception: Sayer 'e' is not defined.
 
@@ -28,7 +28,7 @@ NameError: name 'e' is not defined
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "game/script.rpy", line 40, in script
+  File "game/script.rpy", line 41, in script
     e "You've created a new Ren'Py game."
   File "renpy/ast.py", line 2915, in execute
     Say.execute(self)
@@ -42,5 +42,5 @@ Exception: Sayer 'e' is not defined.
 
 macOS-15.7.3-arm64-arm-64bit arm64
 Ren'Py 8.4.1.25072401
-Petals of Cure 1.0
-Wed May  6 20:20:30 2026
+Petals of Cure 
+Thu May  7 12:12:52 2026
