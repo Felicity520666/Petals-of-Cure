@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 114: unterminated string literal
+    pov"
+
+Ren'Py Version: Ren'Py 8.4.1.25072401
+Thu Jun 25 16:26:02 2026

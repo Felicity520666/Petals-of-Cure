@@ -1,18 +1,18 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 60, in script
-    scene disaster with wpunch
-  File "game/script.rpy", line 60, in <module>
-    scene disaster with wpunch
-                        ^^^^^^
-NameError: name 'wpunch' is not defined. Did you mean: 'vpunch'?
+  File "game/script.rpy", line 137, in script
+    show daniel smile at smallright with miveinleft
+  File "game/script.rpy", line 137, in <module>
+    show daniel smile at smallright with miveinleft
+                                         ^^^^^^^^^^
+NameError: name 'miveinleft' is not defined. Did you mean: 'moveinleft'?
 
 -- Full Traceback ------------------------------------------------------------
 
 Traceback (most recent call last):
-  File "game/script.rpy", line 60, in script
-    scene disaster with wpunch
+  File "game/script.rpy", line 137, in script
+    show daniel smile at smallright with miveinleft
   File "renpy/ast.py", line 1577, in execute
     paired = renpy.python.py_eval(self.paired)
              ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
@@ -22,12 +22,12 @@ Traceback (most recent call last):
   File "renpy/python.py", line 1285, in py_eval_bytecode
     return eval(bytecode, globals, locals)
            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "game/script.rpy", line 60, in <module>
-    scene disaster with wpunch
-                        ^^^^^^
-NameError: name 'wpunch' is not defined. Did you mean: 'vpunch'?
+  File "game/script.rpy", line 137, in <module>
+    show daniel smile at smallright with miveinleft
+                                         ^^^^^^^^^^
+NameError: name 'miveinleft' is not defined. Did you mean: 'moveinleft'?
 
 macOS-15.7.3-arm64-arm-64bit arm64
 Ren'Py 8.4.1.25072401
 Petals of Cure 
-Mon May 25 18:43:48 2026
+Sat Jun 27 10:01:58 2026
